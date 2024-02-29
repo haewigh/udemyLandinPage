@@ -68,7 +68,7 @@ input {
   background-color: aliceblue;
 }
 .hero {
-  height: 21.11rem;
+  height: 380px;
   background-image: url('./images/udemy_hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -274,7 +274,6 @@ p:hover {
   padding: 25px 25px;
 }
 .avatar {
-  background-color: aqua;
   width: 2.22rem;
   height: 2.22rem;
   background-color: #000;
@@ -292,7 +291,6 @@ p:hover {
   font-weight: 700;
   color: #000;
   display: inline;
-  background-color: aqua;
   margin-top: 5px;
   margin-left: 10px;
   font-size: 0.77rem;
@@ -342,7 +340,6 @@ p:hover {
   padding-right: 30px;
 }
 .instructor .tutor-image {
-  background-color: #6411A5;
   padding-right: 0;
 }
 .instructor .tutor-text {
