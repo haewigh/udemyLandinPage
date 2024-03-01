@@ -96,14 +96,6 @@ input {
   font-size: 0.88rem;
   line-height: 1.22rem;
 }
-/* p {
-  font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 14px;
-  line-height: 20px;
-  color: rgb(45, 47, 49);
-}
-p:hover {
-  color: rgb(86, 36, 208); */
 .customers {
   background-color: rgb(255, 249, 249);
   text-align: center;
@@ -133,7 +125,7 @@ p:hover {
   padding-left: 25px;
   padding-bottom: 5px;
 }
- .cta h2 {
+ .cta h2, .categories h2 {
   font-family: SuisseWorks, Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
   color: rgb(45, 47, 49);
@@ -153,7 +145,7 @@ p:hover {
   padding-left: 0;
   margin-left: 0;
  }
- .cta a {
+ .cta a, .categories p {
   font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: rgb(45,47,49);
   font-size: 0.88rem;
@@ -313,7 +305,7 @@ p:hover {
 }
 
 .popular {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .popular h2 {
   margin-top: 3px;
@@ -322,6 +314,18 @@ p:hover {
   font-weight: 700;
   color: rgb(45, 47, 49);
   font-size: 1.33rem;
+}
+.categories {
+  text-align: center;
+}
+.categories h2 {
+  text-align: left;
+}
+.categories .container {
+  margin: 2px 25px;
+}
+.categories .row .pics img {
+  width: 260px;
 }
 .instructor .tutor-text h3 {
   font-family: "SuisseWorks", Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -414,23 +418,9 @@ footer .footer-second .ft {
   color: #fff;
 }
 @media (max-width: 576px) {
-  
+  .instructor {
+    flex-direction: column;
+    padding: 2px 0 2px;
+    margin: 2px 0 2px;
+  }
 }
-/* .top .category {
-  background-color: aqua;
-  margin-left: 0;
-  margin-right: 0
-} */
-/* .top {
-  margin: 0 auto;
-}
-.top .category img {
-  width: 22%;
-  height: 22%;
-}
-.top .row1 {
-  display: flex;
-}
-.row1 .category {
-  margin: 2px 5px;
-} */
