@@ -101,11 +101,12 @@ input {
   text-align: center;
   margin-bottom: 60px;
   padding: 70px 10px;
+}
+.customers p {
   font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: rgb(106, 111, 115);
   font-size: 1.187rem;
   font-weight: 400;
-  line-height: 1.6875rem;
 }
 
 .customers .company {
