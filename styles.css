@@ -67,19 +67,22 @@ input {
 .navbar-nav li:nth-child(6) a:hover {
   background-color: aliceblue;
 }
-.hero {
+/* .hero {
   height: 380px;
   background-image: url('./images/udemy_hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 60px;
+} */
+.d-block {
+  position: relative;
 }
 .hero-content {
   width: 25rem;
   background-color: white;
   padding: 25px 35px;
-  position: relative;
+  position: absolute;
   top: 70px;
   left: 80px;
 }
@@ -95,6 +98,13 @@ input {
   color: rgb(45, 47, 49);
   font-size: 0.88rem;
   line-height: 1.22rem;
+}
+.hero-content a {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  padding: 3px;
 }
 .customers {
   background-color: rgb(255, 249, 249);
