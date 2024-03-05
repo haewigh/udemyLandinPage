@@ -109,6 +109,7 @@ input {
 .customers {
   background-color: rgb(255, 249, 249);
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 60px;
   padding: 70px 10px;
 }
