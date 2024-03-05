@@ -124,13 +124,13 @@ input {
   margin: 0 auto;
   margin-top: 35px;
 }
-.customers .company ul {
+/* .customers .company ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
+} */
 
 .cta {
   padding-top: 20px;
