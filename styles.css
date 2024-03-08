@@ -1,14 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Udemy Sans", "SF Pro Text", -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-
+nav{
+  background-color: aqua;
+}
+header nav .container-fluid {
+  background-color: aquamarine;
+  padding-right: 0;
+}
+nav .navbar-brand {
+  background-color: blue;
+  margin-left: 10px;
+}
+#navbarSupportedContent ul {
+  background-color: brown;
+  margin-right: 0;
+}
 form {
   border: 1px solid grey;
   border-radius: 100px;
   padding: 8px 10px;
   display: flex;
   gap: 5px;
-  width: 500px;
+  width: 400px;
+  height: 40px;
   margin: 0 auto;
 }
 
@@ -24,8 +43,16 @@ input {
   outline: none;
   width: 100%;
 }
+header{
+  background-color: #6411A5;
+  align-items: center;
+  box-sizing: border-box;
+}
 .navbar {
-  padding: 15px 0 15px 20px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* padding: 15px 0 15px 20px; */
   box-shadow: 0 0 10px 0 rgba(45, 45,24,0.6);
 }
 .navbar a {
@@ -38,26 +65,26 @@ input {
   color: rgb(86, 36, 208);
 }
 .nav-item {
-  margin-right: 2px;
+  /* margin-right: 2px; */
 }
 .nav-item .bt {
-  margin-left: 8px;
+  /* margin-left: 8px; */
   border: 2px solid black;
   font-weight: 600;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  /* padding-top: 6px; */
+  /* padding-bottom: 6px; */
 }
 .navbar-nav li:nth-child(5) {
-  margin-left: 10px;
+  /* margin-left: 50px; */
 }
 .navbar-nav li:first-child {
-  margin-right: 15px;
+  /* margin-right: 15px; */
 }
 .navbar-nav li:nth-child(3) {
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 .navbar-nav li:nth-child(6) {
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 .navbar-nav li:nth-child(7) a {
   background-color: black;
@@ -430,5 +457,18 @@ footer .footer-second .ft {
   .hero h1 {
     font-size: 1.5rem;
     line-height: 1.2rem;
+  }
+}
+@media screen and  (max-width:669px) {
+  .instructor {
+    display: initial;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .instructor .tutor-text {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
